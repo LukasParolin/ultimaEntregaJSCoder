@@ -52,7 +52,7 @@ document.getElementById('verHistorial').addEventListener('click', function() {
 })
 
 
-fetch('/data/turnos.json')
+fetch('data/turnos.json')
     .then(response => response.json())
     .then(data => {
         const selectFecha = document.getElementById('fecha')
